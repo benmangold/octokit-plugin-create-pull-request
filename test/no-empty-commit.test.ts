@@ -19,6 +19,7 @@ test("no empty commit", async () => {
       headers,
       mediaType,
       draft,
+      maintainer_can_modify,
       ...params
     } = options;
 

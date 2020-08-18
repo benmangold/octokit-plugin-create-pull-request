@@ -17,6 +17,7 @@ test("update from installation", async () => {
       headers,
       mediaType,
       draft,
+      maintainer_can_modify,
       ...params
     } = options;
 

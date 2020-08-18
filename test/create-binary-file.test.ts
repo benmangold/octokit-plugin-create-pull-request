@@ -19,6 +19,7 @@ test("create binary file", async () => {
       headers,
       mediaType,
       draft,
+      maintainer_can_modify,
       ...params
     } = options;
 

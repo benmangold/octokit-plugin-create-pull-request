@@ -13,6 +13,7 @@ export type Options = {
   createWhenEmpty?: boolean;
   changes: Changes | Changes[];
   draft?: boolean;
+  maintainerCanModify?: boolean;
 };
 
 export type Changes = {

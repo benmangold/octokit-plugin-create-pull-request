@@ -19,6 +19,7 @@ test("options.createWhenEmpty", async () => {
       headers,
       mediaType,
       draft,
+      maintainer_can_modify,
       ...params
     } = options;
 

@@ -16,6 +16,7 @@ export async function composeCreatePullRequest(
     createWhenEmpty,
     changes: changesOption,
     draft = false,
+    maintainerCanModify: maintainer_can_modify = false,
   }: Options
 ) {
   const changes = Array.isArray(changesOption)
@@ -134,5 +135,6 @@ export async function composeCreatePullRequest(
     title,
     body,
     draft,
+    maintainer_can_modify,
   });
 }
